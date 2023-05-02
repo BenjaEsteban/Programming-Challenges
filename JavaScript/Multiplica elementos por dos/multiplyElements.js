@@ -1,6 +1,7 @@
 // Multiplicar los valores de una lista de array numérico por dos
+
 function multiplyElements(array){
-    var lista = []
+    let lista = []
     for (let value of array){
         var mult = value * 2
         lista.push(mult)
