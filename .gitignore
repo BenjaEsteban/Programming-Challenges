@@ -136,3 +136,6 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+#Archivos internos 
+config.py
+
