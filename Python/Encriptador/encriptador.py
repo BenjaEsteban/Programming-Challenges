@@ -1,5 +1,5 @@
 # Encriptador de frases 
-#El programa se encargara de reconocer una frase y cambiar las vocales por otros caracteres
+#El programa se encargara de reconocer una frase y cambiar las vocales por otros caracteres descritos en el archivo config
 
 import config               # importamos archivo en donde estará una lista con el abecedario completo 
                             # y otra con los caracteres a los que representará cada letra
@@ -18,7 +18,7 @@ def encriptador(palabra):
 if __name__ == "__main__":
     try:
         palabra = input("Escriba palabra solo con letras minusculas: ")
-        print("La palabra encriotada es:",encriptador(palabra))
+        print("La palabra encriptada es:",encriptador(palabra))
 
     except:
         print("Error!")
